@@ -1,0 +1,56 @@
+.one {
+    background-color: red;
+    height: 100px;
+    width: 20px
+}
+.two {
+    background-color: blue;
+    height: 50px;
+    width: 20px
+}
+  
+.three {
+    background-color: yellow;
+    height: 75px;
+    width: 20px
+}
+.four {
+    background-color: #00FFDE;
+    height: 20px;
+    width: 100px
+}
+.five {
+    background-color: #FF00DE;
+    height: 20px;
+    width: 50px
+}
+  
+.six {
+    background-color: #003cff;
+    height: 20px;
+    width: 75px;
+}
+.grafik-horizontal {
+    margin: 5% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+  }
+
+.grafik-vertical {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    align-items: start;
+}
+
+.grafik-pie {
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(
+      #00FFDE 0deg 120deg,
+      #FF00DE 120deg 240deg,
+      #003cff 240deg 360deg
+    );
+    border-radius: 50%;
+  }
