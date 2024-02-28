@@ -30,21 +30,21 @@
     height: 20px;
     width: 75px;
 }
-.grafik-horizontal {
+.chart-horizontal {
     margin: 5% 0;
     display: flex;
     flex-direction: row;
     align-items: end;
   }
 
-.grafik-vertical {
+.chart-vertical {
     display: flex;
     flex-direction: column;
     margin: 5% 0;
     align-items: start;
 }
 
-.grafik-pie {
+.chart-pie {
     width: 100px;
     height: 100px;
     background: conic-gradient(
@@ -54,3 +54,4 @@
     );
     border-radius: 50%;
   }
+  
